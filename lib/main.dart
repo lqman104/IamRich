@@ -14,8 +14,9 @@ void main() {
           child: Padding(
             padding: EdgeInsets.only(left: 8.0, right: 8.0),
             child: Image(
-              image: NetworkImage(
-                  'https://st4.depositphotos.com/1157740/21608/i/1600/depositphotos_216083910-stock-photo-cityscape-of-sysney-harbour-and.jpg'),
+              image: AssetImage(
+                  'images/diamonds.png'
+              ),
             ),
           ),
         ),
